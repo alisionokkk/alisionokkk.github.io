@@ -1,0 +1,192 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.second_who{
+    margin-bottom: 261px;
+}
+
+.second_who .second_h2{
+    margin-top: 106px;
+    margin-bottom: 75px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 96px;
+    text-align: center;
+    color: #484848;
+}
+
+.second_who .second_devaider{
+    margin: 0 auto;
+    margin-bottom: 83px;
+    width: 684px;
+    height: 10px;
+    background:#00B40A;
+}
+
+.second_who .second_wrapper_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second_who .second_point_item{
+    width: 213px;
+    text-align: center;
+}
+
+.second_who .second_item_img{
+    margin-bottom: 25px;
+}
+
+.second_who .second_benefits_text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.third_result{
+    margin-bottom: 129px;
+}
+
+.third_result .third_h2{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 64px;
+    color: #484848;
+}
+
+.third_result .third_devaider{
+    margin-top: 20px;
+    margin-bottom: 92px;
+    width: 684px;
+    height: 10px;
+    background: #00B40A;
+}
+
+.third_result .third_img{
+    float: right;
+}
+
+.third_result .third_text{
+    margin-right: 164px;
+    width: 438px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.third_result .third_h3{
+    color: #00B40A;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.third_result .third_fat{
+    font-weight: 700;
+}
+
+.third_result .third_button_start_free{
+    display: block;
+    border: 0;
+    margin: 0 auto;
+    width: 150px;
+    height: 35px;
+    background: #00B40A;
+    font-size: 14px;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 200px;
+}
+
+.fourth_about_trainer{
+    margin-bottom: 139px;
+}
+
+.fourth_h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    color: #484848;
+}
+
+.fourth_devaider{
+    width: 684px;
+    height: 10px;
+    color:#00B40A;
+}
+
+.fourth_img{
+    float: right;
+}
+
+.fourth_description_about_trainer{
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.fifth_facts{
+    margin-bottom: 193px;
+}
+
+.fifth_wrapper_facts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fifth_fact{
+    text-align: center;
+    margin-right: 161px;
+    margin-bottom: 151px;
+}
+
+.h2_fact{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 60px;
+    color: #00B40A;
+}
+
+.fifth_facts .fact_description{
+    width: 259px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.fifth_fat{
+    width: 700;
+}
+
+.seventh_review{
+    background: #484848;
+}
+
+.seventh_review .seventh_h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seventh_review .seventh_wrapper_review{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review_description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.seventh_fat{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
