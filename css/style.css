@@ -21,6 +21,7 @@ header{
 
 .header_menu_navigation li{
     display: inline-block;
+    margin-top: 27px;
     padding-right: 40px;
 }
 
