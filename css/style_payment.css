@@ -6,12 +6,7 @@ header{
     position: fixed;
     width: 100%;
     background: #FFFFFF;
-    height: 80px;
-}
-
-.header_all{
-    width: 100%;
-    position: absolute;
+    height: 94px;
 }
 
 .header_wrapper{
@@ -65,8 +60,64 @@ header{
     margin-left: 31px;
 }
 
-section{
-    padding-top: 80px;
+section h2{
+    display: inline-block;
+    padding-top: 190px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 64px;
+    color: #484848;
+    margin-left: 34px;
+}
+
+section .img_1{
+    float: right;
+    padding-top: 217px;
+    text-align: right;
+}
+
+.devaider{
+    width: 684px;
+    height: 10px;
+    background:#00B40A;
+    margin-bottom: 61px;
+}
+
+section ol{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+section li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 182px;
+    margin-right: 112px;
+}
+
+section .some_text{
+    display: inline-block;
+    margin-left: 182px;
+    width: 477px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    min-height: 190px;
+}
+
+.img_2{
+    margin-bottom: 89px;
+    margin-left: 182px;
+}
+
+.img_3{
+    margin-left: 1035px;
+    margin-bottom: 81px;
 }
 
 footer{
