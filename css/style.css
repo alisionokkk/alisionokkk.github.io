@@ -5,7 +5,8 @@
 header{
     position: fixed;
     background-color: #FFFFFF;
-    height: 94px;
+    height: 70px;
+    width: 100%;
 }
 
 .header_wrapper{
