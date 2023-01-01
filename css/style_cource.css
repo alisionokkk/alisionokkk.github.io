@@ -113,10 +113,9 @@ header .container{
 
 .second_who .second_devaider{
     margin: 0 auto;
-    margin-top: 75px;
     margin-bottom: 83px;
-    width: 684px;
-    height: 10px;
+    width: 770px;
+    height: 5px;
     background:#00B40A;
 }
 
@@ -131,6 +130,8 @@ header .container{
 }
 
 .second_who .second_item_img{
+    top: 0;
+    height: 109px;
     margin-bottom: 25px;
 }
 
@@ -138,7 +139,7 @@ header .container{
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .third_result{
@@ -152,11 +153,11 @@ header .container{
 }
 
 .third_result .third_devaider{
-    margin-top: 20px;
     margin-bottom: 92px;
-    width: 684px;
-    height: 10px;
+    width: 440px;
+    height: 5px;
     background: #00B40A;
+    margin-left: 82px;
 }
 
 .third_result .third_img{
@@ -170,11 +171,11 @@ header .container{
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    color: #000000;
+    color: #484848;
 }
 
 .third_result .third_h3{
-    color: #00B40A;
+    color: #484848;
     font-weight: 700;
     font-size: 32px;
 }
@@ -202,16 +203,16 @@ header .container{
 
 .fourth_about_trainer .h2{
     text-align: left;
-    margin-left: 97px;
+    margin-left: 82px;
     width: 388px;
     font-size: 64px;
 }
 
 .fourth_devaider{
-    margin-top: 40px;
+    margin-left: 82px;
     margin-bottom: 109px;
-    width: 684px;
-    height: 10px;
+    width: 340px;
+    height: 5px;
     background:#00B40A;
 }
 
@@ -225,7 +226,7 @@ header .container{
     margin-right: 83px;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .fifth_facts{
@@ -241,7 +242,7 @@ header .container{
 
 .fifth_fact{
     text-align: center;
-    margin-bottom: 126px;
+    margin-bottom: 70px;
     padding-right: 161px;
 }
 
@@ -257,7 +258,7 @@ header .container{
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
-    color: #000000;
+    color: #484848;
 }
 
 .fact_description span{
@@ -266,7 +267,7 @@ header .container{
 
 .sixth_divaider_grey{
     width: 684px;
-    height: 10px;
+    height: 5px;
     margin-left: 192px;
     background:#484848;
     margin-bottom: 41px;
@@ -283,7 +284,7 @@ header .container{
 
 .sixth_divaider_green{
     width: 684px;
-    height: 10px;
+    height: 5px;
     margin-left: 497px;
     background: #00B40A;
     margin-bottom: 137px;
@@ -363,8 +364,8 @@ header .container{
 
 .eighth_devaider{
     margin: 0 auto;
-    width: 433px;
-    height: 10px;
+    width: 290px;
+    height: 5px;
     background: #00B40A;
     margin-bottom: 52px;
 }
@@ -379,7 +380,7 @@ header .container{
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .eighth_button{
@@ -394,7 +395,7 @@ header .container{
     font-size: 14px;
     text-align: center;
     color: #F5F5F5;
-    margin-top: 125px;
+    margin-top: 70px;
 }
 
 .ninth_about_cources{
@@ -406,12 +407,13 @@ header .container{
     font-weight: 900;
     font-size: 64px;
     color: #484848;
-    margin-left: 100px;
+    margin-left: 82px;
 }
 
 .ninth_devaider{
-    width: 684px;
-    height: 10px;
+    margin-left: 82px;
+    width: 260px;
+    height: 5px;
     background:#00B40A;
     margin-bottom: 184px;
 }
@@ -432,13 +434,13 @@ header .container{
     margin-bottom: 22px;
     font-weight: 700;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
 }
 
 .ninth_cost{
     font-weight: 700;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
     margin-top: 40px;
     margin-bottom: 168px;
 }
@@ -466,7 +468,7 @@ header .container{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 48px;
-    color: #000000;
+    color: #484848;
     margin-left: 109px;
     margin-bottom: 50px;
 }
@@ -475,7 +477,7 @@ header .container{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
     margin-left: 109px;
     margin-bottom: 51px;
 }
@@ -486,7 +488,7 @@ header .container{
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .tenth_description a{
@@ -497,7 +499,7 @@ header .container{
     font-size: 18px;
     margin-top: 18px;
     text-decoration-line: underline;
-    color: #000000;
+    color: #484848;
     margin-bottom: 71px;
 }
 

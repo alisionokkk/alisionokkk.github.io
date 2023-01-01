@@ -9,6 +9,10 @@ header{
     width: 100%;
 }
 
+a:hover {
+    color: #2d4a1a;
+}
+
 .header_wrapper{
     display: flex;
     justify-content: space-between;
@@ -28,7 +32,7 @@ header{
 .header_menu_navigation .header_menu_navigation_link{
     font-size: 14px;
     font-weight: 400;
-    color: #000000;
+    color: #484848;
     text-decoration: none;
 }
 
@@ -61,7 +65,7 @@ header{
 .first_introduction a{
     display: inline-block;
     font-family: 'Inter';
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
     font-size: 24px;
     color: #FFFFFF;
@@ -71,7 +75,7 @@ header{
 .first_introduction .first_introduction_link_1{
     font-size: 32px;
     line-height: 39px;
-    margin-top: 90px;
+    margin-top: 250px;
 }
 
 .first_introduction .first_introduction_link_2{
@@ -125,7 +129,7 @@ header{
     margin-top: 47px;
     font-weight: 400;
     font-size: 18px;
-    color: #000000;
+    color: #484848;
 }
 
 .h2_left{
@@ -142,9 +146,10 @@ header{
 }
 
 .divaider{
+    margin-left: 145px;
     display: inline-block;
-    width: 684px;
-    height: 10px;
+    width: 330px;
+    height: 5px;
     margin-bottom: 105px;
     background-color: #00B40A;
 }
@@ -158,7 +163,7 @@ header{
     width: 601px;
     font-weight: 700;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
 }
 
 .third_for_whom .third_for_whom_text{
@@ -167,7 +172,7 @@ header{
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    color: #000000;
+    color: #484848;
     min-height: 175px;
 }
 
@@ -182,8 +187,8 @@ color: #484848;
 }
 
 .center_divaider{
-    width: 684px;
-    height: 10px;
+    width: 620px;
+    height: 5px;
     background-color: #00B40A;
     margin: 0 auto;
     margin-top: 18px;
@@ -211,7 +216,8 @@ color: #484848;
 }
 
 .fifth_command .divaider{
-    margin: 60px 0px 86px 0px;
+    margin: 0px 0px 86px 117px;
+    width: 290px;
 }
 
 .fifth_command .h2_left{
@@ -238,7 +244,7 @@ color: #484848;
 .fifth_trainer_description{
     font-weight: 700;
     font-size: 18px;
-    color: #000000;
+    color: #484848;
 }
 
 .sixth_cources .h2_center{
@@ -248,7 +254,7 @@ color: #484848;
 
 .sixth_cources .center_divaider{
     margin-bottom: 106px;
-    margin-top: 50px;
+    width: 900px;
 }
 
 .sixth_cources .row{
@@ -266,7 +272,7 @@ color: #484848;
     margin-bottom: 35px;
     font-weight: 700;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
 }
 
 .sixth_cource_description{
@@ -275,7 +281,7 @@ color: #484848;
     width: 417px;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .sixth_link_cource{
@@ -298,11 +304,13 @@ color: #484848;
 .seventh_blog .h2_left{
     margin-top: 45px;
     color: #FFFFFF;
-    margin-left: 115px;
+    margin-left: 117px;
 }
 
 .seventh_blog .divaider{
-    margin-bottom: 70px;
+    height: 5px;
+    margin: 0 0 70px 117px;
+    width: 650px;
 }
 
 .seventh_wrapper{
@@ -346,7 +354,7 @@ color: #484848;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 48px;
-    color: #000000;
+    color: #484848;
     margin-left: 109px;
     margin-bottom: 50px;
 }
@@ -355,7 +363,7 @@ color: #484848;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    color: #000000;
+    color: #484848;
     margin-left: 109px;
     margin-bottom: 51px;
 }
@@ -366,7 +374,7 @@ color: #484848;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
+    color: #484848;
 }
 
 .eighth_description a{
@@ -377,7 +385,7 @@ color: #484848;
     font-size: 18px;
     margin-top: 18px;
     text-decoration-line: underline;
-    color: #000000;
+    color: #484848;
     margin-bottom: 71px;
 }
 

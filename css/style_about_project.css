@@ -6,6 +6,10 @@ header .container{
     position: relative;
 }
 
+a:hover {
+    color: #2d4a1a;
+}
+
 .header_all{
     width: 100%;
     position: absolute;
@@ -80,13 +84,13 @@ header .container{
 }
 
 .devaider{
-    width: 750px;
-    height: 10px;
+    width: 615px;
+    height: 5px;
     background:#00B40A;
 }
 
 .second_wrapper{
-    margin-top: 37px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -111,11 +115,12 @@ header .container{
 }
 
 .third_history .h2{
-    margin-left: 70px;
+    margin-left: 45px;
 }
 
 .third_history .devaider{
-    width: 684px;
+    width: 565px;
+    margin-left: 45px;
     margin-bottom: 60px;
 }
 
@@ -158,7 +163,7 @@ header .container{
 
 .fourth_command{
     margin-top: 143px;
-    margin-bottom: 294px;
+    margin-bottom: 100px;
 }
 
 .fourth_command .h2{
@@ -167,6 +172,7 @@ header .container{
 
 .fourth_command .devaider{
     margin: 0 auto;
+    width: 295px;
     margin-bottom: 78px;
 }
 
@@ -211,6 +217,7 @@ header .container{
 }
 
 .fourth_information{
+    min-height: 132px;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -218,6 +225,8 @@ header .container{
 }
 
 .fourth_link{
+    display: inline-block;
+    margin-top: 40px;
     font-weight: 700;
     font-size: 18px;
     text-decoration-line: underline;
@@ -233,9 +242,8 @@ header .container{
 }
 
 .fifth_cooperation .devaider{
-    width: 684px;
+    width: 560px;
     margin: 0 auto;
-    margin-top: 33px;
     margin-bottom: 124px;
 }
 
