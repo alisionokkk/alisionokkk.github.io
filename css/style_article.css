@@ -1,58 +1,14 @@
-* {
-    font-family: 'Istok Web', sans-serif;
-}
-
-header{
-    position: fixed;
-    background-color: #FFFFFF;
-    height: 70px;
-    width: 100%;
-}
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{background:#f5f5f5;padding-bottom:100px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;margin:0 auto;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5}
 
 a:hover {
     color: #2d4a1a;
 }
-
-.header_wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header_logo{
-    margin-left: 31px;
-}
-
-.header_menu_navigation li{
-    display: inline-block;
-    margin-top: 27px;
-    padding-right: 40px;
-}
-
-.header_menu_navigation .header_menu_navigation_link{
-    font-size: 14px;
-    font-weight: 400;
-    color: #484848;
-    text-decoration: none;
-}
-
-.header_button_start_free{
-    width: 150px;
-    height: 35px;
-    margin-right:30px;
-    padding: 0px;
-    border: 0px;
-    background: #00B40A;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #F5F5F5;
-}
-
 .first_bg .container{
     padding-top: 74px;
 }
-
+.first_bg {
+    padding-bottom: 60px;
+}
 .first_bg .container .first_wrapper{
     padding-top: 219px;
     background: url("../img/article/1_bg.jpg");
@@ -67,16 +23,12 @@ a:hover {
     font-size: 64px;
     text-align: center;
     color: #FFFFFF;
-    width: 1024px;
+    width: 100%;
 }
 
-.second_article{
-    margin-bottom: 300px;
-}
+.second_article{padding-bottom:300px;}
 
-.second_img{
-    margin-top: 56px;
-}
+.second_img{margin-top:56px;}
 
 .header_path{
     font-family: 'Inter';
@@ -87,18 +39,8 @@ a:hover {
     margin-bottom: 62px;
 }
 
-.header_path a{
-    display: inline-block;
-    font-family: 'Inter';
-    font-weight: 400;
-    line-height: 12px;
-    font-size: 12px;
-    color: #484848;
-    text-decoration: none;
-}
-
 .first_text{
-    width: 671px;
+    max-width: 671px;
     margin: 0 auto;
     font-weight: 400;
     font-size: 18px;
@@ -110,21 +52,31 @@ a:hover {
 .first_img{
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 65px;
+    max-width: 100%;
 }
 
 .first_wrapper_img{
-    margin-left: 381px;
+    max-width: 671px;
+    margin:0 auto;
     margin-bottom: 88px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .second_img{
-    padding-right: 43px;
+    max-width: 251px;
 }
 
 .wrapper_buttons{
-    margin-left: 490px;
-    margin-bottom: 201px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 button a{
@@ -139,22 +91,25 @@ button a{
 button{
     margin: 0;
     border: 0;
-    margin-right: 59px;
 }
 
 .wrapper_articles{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
     flex-wrap: wrap;
 }
 
 .article_element{
-    width: 320px;
+    max-width: 319px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .first_img{
     text-align: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .first_link{
@@ -163,40 +118,37 @@ button{
     font-size: 18px;
     line-height: 26px;
     color: #484848;
-    display: inline-block;
+    width: 100%;
     text-decoration: none;
 }
 
 .logo{
     float: right;
     margin-top: 65px;
-    margin-right: 110px;
-    margin-bottom: 81px;
+    padding-bottom: 81px;
 }
 
 footer{
     background-color: #484848;
-    height: 293px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
+    min-height: 293px;
 }
-
+.footer_icon{
+    display: inline-block;
+    max-width: 176px;
+    text-align: center;
+}
+.footer_icon img{margin-top: 20px;}
+.footer_part{color:#FFFFFF}
 .footer_wrapper{
-    height: 293px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 113px;
-    margin-right: 85px;
+    flex-wrap: wrap;
+    min-height: 293px;
 }
 
-footer .footer_menu_links{
+footer ul{
     list-style-type: none;
-}
-
-.footer_social_links_icons{
-    margin-top: 35px;
 }
 
 footer a{
@@ -205,3 +157,11 @@ footer a{
     color: #FFFFFF;
     text-decoration: none;
 }
+@media(max-width: 767px){
+    header nav, header .button_start{
+        display: none;
+    }
+    .first_bg h2{
+        font-size: 30px;
+    }
+    }
