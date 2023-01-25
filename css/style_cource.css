@@ -1,4 +1,4 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{background:#f5f5f5;padding-bottom:100px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#f5f5f5;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;margin:0 auto;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5}
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{padding-bottom:100px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;margin:0 auto;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5}
 header .container{
     position: relative;
 }
@@ -14,7 +14,6 @@ header{
 }
 
 .first_introduction .container{
-    padding-left: 60px;
     background:url("../img/second_page/1_bg.jpg");
     background-repeat: no-repeat;
     padding-bottom: 144px;
@@ -22,15 +21,13 @@ header{
 
 .first_h2{
     padding-top: 134px;
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 64px;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .first_description{
-    width: 562px;
-    font-weight: 700;
+    max-width: 562px;
+    font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     color: #FFFFFF;
@@ -49,23 +46,14 @@ header{
     color: #F5F5F5;
 }
 
-.second_who{
-    margin-top: 106px;
-    margin-bottom: 261px;
-}
-
 .h2{
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 96px;
     text-align: center;
-    color: #484848;
 }
 
 .second_who .second_devaider{
     margin: 0 auto;
     margin-bottom: 83px;
-    width: 770px;
+    max-width: 770px;
     height: 5px;
     background:#00B40A;
 }
@@ -73,11 +61,13 @@ header{
 .second_who .second_wrapper_items{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .second_who .second_point_item{
     width: 213px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .second_who .second_item_img{
@@ -88,7 +78,7 @@ header{
 
 .second_who .second_benefits_text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: #484848;
 }
@@ -98,28 +88,28 @@ header{
 }
 
 .third_result .h2{
-    width: 438px;
-    font-size: 64px;
-    margin-left: 82px;
+    max-width: 438px;
 }
 
 .third_result .third_devaider{
     margin-bottom: 92px;
-    width: 440px;
+    max-width: 440px;
     height: 5px;
     background: #00B40A;
-    margin-left: 82px;
 }
-
-.third_result .third_img{
-    float: right;
+.third_img{
+    max-width: 100%;
+}
+.third_result .th_wr{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 
 .third_result .third_text{
-    margin-left: 82px;
-    margin-right: 164px;
-    width: 438px;
-    font-size: 18px;
+    display: inline-block;
+    max-width: 438px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: #484848;
@@ -154,35 +144,30 @@ header{
 
 .fourth_about_trainer .h2{
     text-align: left;
-    margin-left: 82px;
-    width: 388px;
+    max-width: 388px;
     font-size: 64px;
 }
 
 .fourth_devaider{
-    margin-left: 82px;
     margin-bottom: 109px;
-    width: 340px;
+    max-width: 340px;
     height: 5px;
     background:#00B40A;
 }
 
 .fourth_img{
     float: right;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .fourth_description_about_trainer{
-    width: 571px;
-    margin-left: 97px;
-    margin-right: 83px;
-    font-size: 18px;
+    display: inline-block;
+    max-width: 571px;
+    font-size: 14px;
     line-height: 26px;
     color: #484848;
-}
-
-.fifth_facts{
-    margin-bottom: 193px;
-    margin-left: 180px;
+    margin-bottom: 40px;
 }
 
 .fifth_wrapper_facts{
@@ -194,22 +179,23 @@ header{
 .fifth_fact{
     text-align: center;
     margin-bottom: 70px;
-    padding-right: 161px;
+    min-width: 30%;
 }
 
 .fifth_h2_fact{
-    font-family: 'Inter';
-    font-weight: 800;
-    font-size: 60px;
     color: #00B40A;
+    font-size: 50px;
+    font-weight: 600;
 }
 
 .fifth_facts .fact_description{
     width: 259px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 29px;
     color: #484848;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .fact_description span{
@@ -217,16 +203,16 @@ header{
 }
 
 .sixth_divaider_grey{
-    width: 684px;
+    max-width: 50%;
     height: 5px;
-    margin-left: 192px;
     background:#484848;
     margin-bottom: 41px;
 }
 
 .sixth_button_video{
     display: block;
-    width: 618px;
+    max-width: 618px;
+    width: 100%;
     height: 367px;
     background: url("../img/second_page/6_img.jpg");
     margin: 0 auto;
@@ -234,11 +220,11 @@ header{
 }
 
 .sixth_divaider_green{
-    width: 684px;
+    max-width: 50%;
     height: 5px;
-    margin-left: 497px;
     background: #00B40A;
     margin-bottom: 137px;
+    margin-left: 50%;
 }
 
 .sixth_button_start_free{
@@ -255,19 +241,12 @@ header{
     color: #F5F5F5;
 }
 
-.sixth_video{
-    margin-bottom: 144px;
-}
-
 .seventh_review{
     background: #484848;
     padding-bottom: 100px;
 }
 
 .seventh_review .seventh_h2{
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 96px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 103px;
@@ -275,17 +254,20 @@ header{
 
 .seventh_review_element{
     display: flex;
-    justify-content: space-between;
-    padding-right: 122px;
-    margin-left: 256px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 52px;
 }
-
+.sixth_video .th_wr{
+    max-width: 560px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 .seventh_review_description{
     display: inline-block;
-    width: 610px;
+    max-width: 610px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: #FFFFFF;
 }
@@ -294,6 +276,7 @@ header{
     display: inline-block;
     width: 103px;
     height: 102px;
+    margin-bottom: 40px;
 }
 
 .seventh_fat{
@@ -302,14 +285,10 @@ header{
 
 .eighth_process{
     margin-top: 169px;
-    margin-bottom: 209px;
 }
 
 .eighth_h2{
     text-align: center;
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 64px;
     color: #484848;
 }
 
@@ -321,15 +300,12 @@ header{
     margin-bottom: 52px;
 }
 
-.eighth_list{
-    margin-left: 359px;
-}
-
 .eighth_list li{
+    margin: 0 auto;
     padding-bottom: 46px;
-    width: 600px;
+    max-width: 600px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: #484848;
 }
@@ -355,30 +331,27 @@ header{
 
 .ninth_h2{
     font-family: 'Inter';
-    font-weight: 900;
-    font-size: 64px;
     color: #484848;
-    margin-left: 82px;
 }
 
 .ninth_devaider{
-    margin-left: 82px;
     width: 260px;
     height: 5px;
     background:#00B40A;
-    margin-bottom: 184px;
+    margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .ninth_wrapper_cources{
     display: flex;
     justify-content: space-between;
-    margin-left: 182px;
-    padding-right: 150px;
+    flex-wrap: wrap;
 }
 
 .ninth_about_cource{
     width: 241px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .ninth_name_cource{
@@ -410,41 +383,42 @@ header{
     color: #F5F5F5;
 }
 
-.tenth_description_logo{
+.second_description_logo{
     text-align: right;
-    margin-right: 103px;
 }
 
-.tenth_description_h2{
+.second_description_h2{
     font-family: 'Inter';
+    margin-top: 20px;
     font-weight: 400;
     font-size: 48px;
     color: #484848;
-    margin-left: 109px;
+    text-align-last: left;
     margin-bottom: 50px;
+    margin-left: 8%;
 }
 
-.tenth_description_h3{
+.second_description_h3{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     color: #484848;
-    margin-left: 109px;
+    margin-left: 8%;
     margin-bottom: 51px;
 }
 
-.tenth_description_text{
-    margin-left: 109px;
-    margin-right: 106px;
+.second_description_text{
+    margin-left: 8%;
+    max-width: 1080px;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #484848;
 }
 
-.tenth_description a{
+.second_description a{
     display: block;
-    width: 50px;
+    width: 20px;
     margin: 0 auto;
     font-weight: 700;
     font-size: 18px;
@@ -456,27 +430,25 @@ header{
 
 footer{
     background-color: #484848;
-    height: 293px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
+    min-height: 293px;
 }
-
+.footer_icon{
+    display: inline-block;
+    max-width: 176px;
+    text-align: center;
+}
+.footer_icon img{margin-top: 20px;}
+.footer_part{color:#FFFFFF;font-size: 14px;}
 .footer_wrapper{
-    height: 293px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 113px;
-    margin-right: 85px;
+    flex-wrap: wrap;
+    min-height: 293px;
 }
 
-footer .footer_menu_links{
+footer ul{
     list-style-type: none;
-}
-
-.footer_social_links_icons{
-    margin-top: 35px;
 }
 
 footer a{
@@ -484,4 +456,15 @@ footer a{
     font-size: 14px;
     color: #FFFFFF;
     text-decoration: none;
+}
+footer span a{
+    font-weight: 700;
+}
+@media(max-width: 767px){
+.element,header nav, header .button_start{
+    display: none;
+}
+.fourth_about_trainer{
+    margin-bottom: 450px;
+}
 }
