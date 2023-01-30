@@ -1,4 +1,4 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{padding-bottom:100px;padding-top: 90px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;margin:0 auto;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5}
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{padding-bottom:100px;padding-top: 90px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
 a:hover {
     color: #2d4a1a;
 }
@@ -62,7 +62,7 @@ a:hover {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+.second_benefits{padding-top: 0;}
 .second_benefits .second_items .second_benefits_items{
     max-width: 374px;
     padding-bottom: 100px;
@@ -70,20 +70,23 @@ a:hover {
     margin: 0 auto;
     min-width: 30%;
 }
-
+.second_benefits_icons{
+    width: 70px;
+    height: 70px;
+}
 .second_benefits_text{
     margin-top: 47px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: #484848;
+    
 }
 .first_introduction{padding-top:80px;}
 .h2_left{
     font-family: 'Inter';
     color: #484848;
     display:block;
-    padding-bottom: 40px;
-    text-align: left;
+    text-align: right;
 }
 
 .third_for_whom img{
@@ -92,10 +95,12 @@ a:hover {
     max-width: 100%;
     margin-bottom: 40px;
 }
-
+.wrh{
+    width: 50%;
+}
 .divaider{
-    display: inline-block;
-    max-width: 330px;
+    display:block;
+    width: 100%;
     height: 5px;
     margin-bottom: 105px;
     background-color: #00B40A;
@@ -104,20 +109,21 @@ a:hover {
 .third_description{
     margin: 0 auto;
     margin-bottom: 40px;
+    max-width: 600px;
 }
 
 .third_for_whom .third_for_whom_h2{
-    display: inline-block;
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 32px;
     color: #484848;
+    text-align: left;
 }
 
 .third_for_whom .third_for_whom_text{
     display: inline-block;
     max-width: 548px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: #484848;
@@ -127,7 +133,6 @@ a:hover {
 .h2_center{
 font-family: 'Inter';
 text-align: center;
-line-height: 97px;
 color: #484848;
 }
 .second_benefits{padding-bottom: 0;}
@@ -136,33 +141,27 @@ color: #484848;
     height: 5px;
     background-color: #00B40A;
     margin: 0 auto;
-    margin-top: 18px;
 }
 
 .fourth_what_is_menu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 117px;
 }
 
 .fourth_what_is_menu_elements{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     padding-bottom: 22px;
-    max-width: 500px;
-    min-width: 45%;
+    max-width: 450px;
+    min-width: 35%;
 }
 
 .fourth_what_is_menu span{
     font-weight: 700;
-}
-
-.fifth_command .divaider{
-    margin: 0px 0px 86px 0;
-    width: 290px;
 }
 
 .fifth_command .h2_left{
@@ -191,7 +190,7 @@ color: #484848;
 
 .fifth_trainer_description{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     color: #484848;
 }
 
@@ -220,17 +219,18 @@ color: #484848;
 .sixth_cource_description{
     display: inline-block;
     font-weight: 400;
-    max-width: 417px;
-    font-size: 18px;
+    max-width: 100%;
+    font-size: 14px;
     line-height: 26px;
     color: #484848;
 }
 
 .sixth_link_cource{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration-line: underline;
     color: #00B40A;
+    float: right;
 }
 
 .seventh_blog .container{
@@ -239,20 +239,13 @@ color: #484848;
 }
 
 .seventh_blog .h2_left{
-    margin-top: 45px;
+    padding-top: 45px;
     color: #FFFFFF;
-    margin-bottom: 40px;
-}
-
-.seventh_blog .divaider{
-    height: 5px;
-    margin: 0 117px;
-    max-width: 650px;
 }
 
 .seventh_wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -270,7 +263,7 @@ color: #484848;
 .seventh_elements .seventh_text_about_blog{
     margin-top: 25px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: #FFFFFF;
 }
@@ -279,14 +272,17 @@ color: #484848;
     display: block;
     width: 126px;
     margin: 0 auto;
-    margin-top: 52px;
     padding-bottom: 38px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration-line: underline;
     color: #00B40A;
 }
-
+.wra{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .second_description_logo{
     text-align: right;
 }
@@ -294,8 +290,8 @@ color: #484848;
 .second_description_h2{
     font-family: 'Inter';
     margin-top: 20px;
-    font-weight: 400;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 50px;
     color: #484848;
     text-align-last: left;
     margin-bottom: 50px;
@@ -304,7 +300,7 @@ color: #484848;
 
 .second_description_h3{
     font-family: 'Inter';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 32px;
     color: #484848;
     margin-left: 8%;
@@ -313,9 +309,9 @@ color: #484848;
 
 .second_description_text{
     margin-left: 8%;
-    max-width: 1080px;
+    width: 92%;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
     color: #484848;
 }
@@ -325,7 +321,7 @@ color: #484848;
     width: 20px;
     margin: 0 auto;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 18px;
     text-decoration-line: underline;
     color: #484848;
@@ -340,8 +336,12 @@ footer{
     display: inline-block;
     max-width: 176px;
     text-align: center;
+    margin: 0 auto;
 }
 .footer_icon img{margin-top: 20px;}
+footer .footer_icon img.footer_icon_logo{
+    margin-top: 0;
+}
 .footer_part{color:#FFFFFF;font-size: 14px;}
 .footer_wrapper{
     display: flex;
@@ -371,6 +371,9 @@ footer span a{
     font-size: 18px;
     margin-top: 100px;
 }
+.wrh{
+    width: 100%;
+}
 .sixth_cources{
     padding-top: 0;
     padding-bottom: 0;
@@ -380,7 +383,7 @@ footer span a{
     display: none;
 }
 .first_introduction{margin-bottom: 400px;}
-.col-5{
+.col-4{
     width: 100%;
 }
 .seventh_blog{
@@ -412,5 +415,11 @@ footer span a{
 }
 .first_introduction{
     padding-top: 60px;
+}
+h2{
+    font-size: 30px;
+}
+.third_for_whom h2.third_for_whom_h2{
+    font-size: 24px;
 }
 }
