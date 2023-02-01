@@ -1,4 +1,4 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{padding-bottom:100px;padding-top: 90px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}section{padding-bottom:100px;padding-top: 90px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
 a:hover {
     color: #2d4a1a;
 }
@@ -76,7 +76,7 @@ a:hover {
 }
 .second_benefits_text{
     margin-top: 47px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     color: #484848;
     
@@ -153,11 +153,11 @@ color: #484848;
 
 .fourth_what_is_menu_elements{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 26px;
     padding-bottom: 22px;
-    max-width: 450px;
-    min-width: 35%;
+    max-width: 500px;
+    min-width: 43%;
 }
 
 .fourth_what_is_menu span{
@@ -190,7 +190,7 @@ color: #484848;
 
 .fifth_trainer_description{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     color: #484848;
 }
 
@@ -227,7 +227,7 @@ color: #484848;
 
 .sixth_link_cource{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration-line: underline;
     color: #00B40A;
     float: right;
@@ -274,7 +274,7 @@ color: #484848;
     margin: 0 auto;
     padding-bottom: 38px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration-line: underline;
     color: #00B40A;
 }
