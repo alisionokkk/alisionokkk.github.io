@@ -18,21 +18,26 @@ header{
 }
 
 .header_path, .first a, header a{
+    font-size: 12px;
     color:#FFFFFF
 }
 .header_path{
     padding-top: 90px;
 }
-
+.wrh h2{
+    margin-bottom: 40px;
+}
 .second_wrapper{
+    margin: 0 auto;
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     font-weight: 400;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 17px;
     color: #000000;
+    
 }
 .second_wrapper span{
     font-weight: 700;
@@ -44,7 +49,7 @@ header{
 }
 
 .second_description_2{
-    max-width: 487px;
+    max-width: 500px;
     padding-bottom: 50px;
 }
 
@@ -87,11 +92,12 @@ header{
 
 .fourth_command .h2{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .fourth_command .devaider{
     margin: 0 auto;
-    max-width: 295px;
+    max-width: 680px;
     margin-bottom: 78px;
 }
 
@@ -126,16 +132,17 @@ header{
 }
 
 .fourth_name{
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 20px;
     color: #00B40A;
 }
 
 .fourth_speciality{
-    margin: 23px 0;
+    margin: 15px 0;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     color: #000000;
+    margin-bottom: 51px;
 }
 
 .fourth_information{
@@ -148,13 +155,13 @@ header{
 }
 
 .fourth_link{
-    display: inline-block;
     margin-top: 60px;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 14px;
     text-decoration-line: underline;
     color: #00B40A;
+    float: right;
 }
 
 .wrh h2.h2{
@@ -162,10 +169,11 @@ header{
 }
 .fifth_cooperation .h2{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .fifth_cooperation .devaider{
-    max-width: 560px;
+    max-width: 680px;
     margin: 0 auto;
     margin-bottom: 124px;
 }
@@ -183,10 +191,11 @@ header{
 }
 
 .fifth_name{
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 20px;
     color: #00B40A;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 .wrh{
     width: 50%;
@@ -292,6 +301,7 @@ footer a{
 .element,header nav, header .button_start{
     display: none;
 }
+
 h2{font-size: 30px;}
 .third_year{
     font-size: 16px;
@@ -303,4 +313,5 @@ h2{font-size: 30px;}
 .third_information{
     padding-top: 40px;
 }
+.wrh{width: 100%;}
 }

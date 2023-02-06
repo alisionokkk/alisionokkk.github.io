@@ -1,16 +1,14 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0}section{padding-bottom:100px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5}
-header .container{
-    position: relative;
-}
-
-header{
-    width: 100%;
-    position: absolute;
-}
-
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}section{padding-bottom:100px}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav{margin:0 auto}header ul li{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0}.button_start{width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5;margin: 0 auto;}
+header{background:#FFFFFF;position:fixed;width:100%}
 .header_path{
     color: #FFFFFF;
-    margin-left: 31px;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+.header_link{
+    color: #FFFFFF;
+    font-size: 12px;
 }
 
 .first_introduction .container{
@@ -20,17 +18,21 @@ header{
 }
 
 .first_h2{
-    padding-top: 134px;
     color: #FFFFFF;
     text-align: left;
+    margin-left: 30px;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .first_description{
     max-width: 562px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24px;
     line-height: 35px;
     color: #FFFFFF;
+    margin-left: 30px;
 }
 
 .first_button{
@@ -44,6 +46,7 @@ header{
     font-size: 14px;
     text-align: center;
     color: #F5F5F5;
+    margin-left: 30px;
 }
 
 .h2{
@@ -57,7 +60,10 @@ header{
     height: 5px;
     background:#00B40A;
 }
-
+.second_item_description{
+    font-size: 14px;
+    font-weight: 700;
+}
 .second_who .second_wrapper_items{
     display: flex;
     justify-content: space-around;
@@ -72,7 +78,8 @@ header{
 .second_who h2{text-align: center;}
 .second_who .second_item_img{
     top: 0;
-    height: 109px;
+    height: 70px;
+    width: 70px;
     margin-bottom: 25px;
 }
 
@@ -94,7 +101,7 @@ header{
 
 .third_result .third_text{
     display: inline-block;
-    max-width: 438px;
+    max-width: 501px;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
@@ -105,6 +112,7 @@ header{
     color: #484848;
     font-weight: 700;
     font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .third_result .third_fat{
@@ -121,7 +129,7 @@ header{
     font-size: 14px;
     text-align: center;
     color: #F5F5F5;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .fourth_img{
@@ -129,12 +137,20 @@ header{
     max-width: 100%;
     overflow: hidden;
 }
-
-.fourth_description_about_trainer{
+.th_el{
     display: inline-block;
     max-width: 571px;
+}
+.th_el .button_start{
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.fourth_description_about_trainer{
+    display: inline-block;
+    max-width: 100%;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
     color: #484848;
     margin-bottom: 40px;
 }
@@ -159,8 +175,8 @@ header{
 
 .fifth_facts .fact_description{
     width: 259px;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 29px;
     color: #484848;
     text-align: center;
@@ -219,13 +235,17 @@ header{
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 103px;
+    padding-top: 40px;
 }
 
 .seventh_review_element{
     display: flex;
+    margin: 0 auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     margin-bottom: 52px;
+    width: 80%;
 }
 .sixth_video .th_wr{
     max-width: 560px;
@@ -250,6 +270,7 @@ header{
 
 .seventh_fat{
     font-weight: 700;
+    color: #FFFFFF
 }
 
 .eighth_process{
@@ -272,13 +293,16 @@ header{
 .eighth_list li{
     margin: 0 auto;
     padding-bottom: 46px;
-    max-width: 600px;
+    max-width: 645px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 26px;
     color: #484848;
 }
-
+.eighth_list li::marker{
+    font-size: 48px;
+    font-weight: 400;
+}
 .eighth_button{
     display: block;
     margin: 0 auto;
@@ -294,62 +318,51 @@ header{
     margin-top: 70px;
 }
 
-.ninth_about_cources{
-    margin-bottom: 40px;
-}
-
 .ninth_h2{
     font-family: 'Inter';
     color: #484848;
 }
-
+.ninth_about_cources{
+    padding-bottom: 0;
+}
 .ninth_devaider{
-    width: 260px;
+    max-width: 648px;
     height: 5px;
     background:#00B40A;
     margin: 0 auto;
-    margin-bottom: 150px;
-}
-
-.ninth_wrapper_cources{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 110px;
 }
 
 .ninth_about_cource{
-    width: 241px;
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
-
-.ninth_name_cource{
+.n_v{
+    max-width: 634px;
+    min-width: 48%;
+}
+.n_t{
+    max-width: 417px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+.n_t .button_start{
+    margin-top: 130px;
+    float: right;
+    margin-bottom: 20px;
+}
+.ninth_about_cource h2{
+    text-align-last: left;
     margin-bottom: 22px;
     font-weight: 700;
     font-size: 32px;
     color: #484848;
 }
-
-.ninth_cost{
-    font-weight: 700;
-    font-size: 32px;
-    color: #484848;
-    margin-top: 40px;
-    margin-bottom: 168px;
-}
-
-.ninth_button{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    border: 0;
-    width: 150px;
-    height: 35px;
-    background: #00B40A;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #F5F5F5;
+.ninth_about_cource h2 span{
+    float: right;
 }
 
 .second_description_logo{
@@ -390,7 +403,7 @@ header{
     width: 20px;
     margin: 0 auto;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 18px;
     text-decoration-line: underline;
     color: #484848;
@@ -450,7 +463,12 @@ footer span a{
 .fourth_about_trainer{
     margin-bottom: 450px;
 }
-.whr{
+.wrh{
     width: 100%;
 }
+h2.first_h2{
+    font-size: 40px;
+}
+h2{font-size: 40px;}
+.first_introduction{padding-bottom: 0;}
 }

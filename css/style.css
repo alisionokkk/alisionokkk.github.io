@@ -142,7 +142,6 @@ color: #484848;
     background-color: #00B40A;
     margin: 0 auto;
 }
-
 .fourth_what_is_menu{
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +149,6 @@ color: #484848;
     align-items: center;
     margin-top: 117px;
 }
-
 .fourth_what_is_menu_elements{
     font-weight: 400;
     font-size: 18px;
@@ -159,15 +157,12 @@ color: #484848;
     max-width: 500px;
     min-width: 43%;
 }
-
 .fourth_what_is_menu span{
     font-weight: 700;
 }
-
 .fifth_command .h2_left{
     display: block;
 }
-
 .fifth_command .fifth_wrapper{
     display: flex;
     justify-content: space-between;
@@ -187,44 +182,27 @@ color: #484848;
     font-size: 32px;
     color: #00B40A;
 }
-
 .fifth_trainer_description{
     font-weight: 700;
     font-size: 18px;
     color: #484848;
 }
-
 .sixth_cources .center_divaider{
     margin-bottom: 106px;
     max-width: 900px;
-}
-
-.sixth_cources .row{
-    margin-bottom: 51px;
 }
 
 .sixth_cource_photo{
     display: inline-block;
     max-width: 634px;
 }
-
 .sixth_name_cource{
-    display: inline-block;
+    text-align: left;
     margin-bottom: 35px;
     font-weight: 700;
     font-size: 32px;
     color: #484848;
 }
-
-.sixth_cource_description{
-    display: inline-block;
-    font-weight: 400;
-    max-width: 100%;
-    font-size: 14px;
-    line-height: 26px;
-    color: #484848;
-}
-
 .sixth_link_cource{
     font-weight: 700;
     font-size: 18px;
@@ -232,23 +210,17 @@ color: #484848;
     color: #00B40A;
     float: right;
 }
-
-.seventh_blog .container{
+.seventh_blog{
     background: #484848;
-    border-radius: 20px;
 }
-
 .seventh_blog .h2_left{
-    padding-top: 45px;
     color: #FFFFFF;
 }
-
 .seventh_wrapper{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .seventh_elements{
     max-width: 100%;
     width: 320px;
@@ -267,7 +239,6 @@ color: #484848;
     line-height: 26px;
     color: #FFFFFF;
 }
-
 .seventh_more_about_blog{
     display: block;
     width: 126px;
@@ -286,7 +257,19 @@ color: #484848;
 .second_description_logo{
     text-align: right;
 }
-
+.se{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.s_t{
+    max-width:417px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #484848;
+}
 .second_description_h2{
     font-family: 'Inter';
     margin-top: 20px;
