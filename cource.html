@@ -10,20 +10,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style_cource.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script> 
 </head>
+
 <body>
-    <header>
-        <div class="container">
+    <header class = "header">
+        <div class="container header__container">
             <div class="header_wrapper">
                 <a href="index.html"><img src="icons/seventh_page/seventh_logo.svg" alt="header_icon_logo"></a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="cource.html">Курс</a></li>
-                        <li><a href="about_project.html">О проекте</a></li>
-                        <li><a href="payment.html">Оплата</a></li>
-                        <li><a href="blog.html">Блог</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="menu header__menu">
+                        <li class="menu__item"><a href="index.html">Главная</a></li>
+                        <li class="menu__item"><a href="cource.html">Курс</a></li>
+                        <li class="menu__item"><a href="about_project.html">О проекте</a></li>
+                        <li class="menu__item"><a href="payment.html">Оплата</a></li>
+                        <li class="menu__item"><a href="blog.html">Блог</a></li>
+                        <li class="menu__item"><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </nav>
                 <button class="button_start">Начать бесплатно</button>
@@ -33,7 +39,7 @@
     
     <section class="first_introduction">
         <div class="container">
-            <div class="header_path"><a href="index.html" class="header_link">Главная</a> - <a href="contacts.html" class="header_link">Контакты</a></div>
+            <div class="header_path"><a href="index.html" class="header_link">Главная</a> - <a href="cource.html" class="header_link">Курс</a></div>
             <h2 class="first_h2">Умный фитнес</h2>
             <div class="first_description">Комплекс индивидуально составленных видео-тренировок на основе персонального тестирования</div>
             <button class="first_button">Начать бесплатно</button>
@@ -66,9 +72,10 @@
     </section>
 
     <section class="third_result">
-        <div class="container">
+
             <div class="wrh">            <h2 class="h2">О результате</h2>
                 <div class="devaider"></div></div>
+                <div class="container">
             <div class="th_wr">
                 <div class="third_text"><h3 class="third_h3">Индивидуальный</h3>Для каждого участника проекта результат будет определяться персональной целью.<br><br><br><h3 class="third_h3">Качественный</h3>Благодаря тренировкам с <span class="third_fat"> Smart Fitness</span> уже в первый месяц вы почувствуете физиологические улучшения в прорабатываемых зонах. Движения и выполнение упражнений станут качественными и непринуждёнными. Понимание собственного тела позволит понять собственные возможности и перспективы от тренировок в будущем.<br><br><br><h3 class="third_h3">Достигнутый</h3>Если вы будете работать по предложенному плану и правильно выполнять все упражнения, то ничто не помешает добиться желаемого.</div>
                 <img src="img/second_page/3_img.png" alt="third_img" class="third_img">
@@ -78,11 +85,12 @@
     </section>
 
     <section class="fourth_about_trainer">
-        <div class="container">
+
             <div class="wrh">            
                 <h2 class="h2">О тренере</h2>
                 <div class="devaider"></div>
             </div>
+            <div class="container">
             <div class="th_wr">
                 <div class="th_el"><div class="fourth_description_about_trainer">Привет!<br><br>Меня зовут Виктория, и я профессиональный фитнес-тренер.
                     Я в спорте более 26 лет. Окончила Белорусский Государственный Университет Физической Культуры в 2011 году по специальности “Тренерская деятельность. Преподаватель физической культуры”.<br><br>Являюсь мастером спорта по гандболу. Профессионально выступала за женский гандбольный клуб.<br><br>Окончила фитнес-школу “Grantello Fitness School”.<br><br>Сертифицированный и практикующий тренер по направлениям<br>силовой тренинг<br>аэробика<br>степ аэробика<br>функциональный  тренинг<br>TPX<br><br>Награды<br>Финалистка Чемпионата Беларуси по бодибилдингу и фитнесу 2016<br>Бронзовая призёрка категории фитнес бикини 2017<br><br>В работе с клиентами специализируюсь на следующих вопросах:<br>функциональное тестирование опорно-двигательного аппарата (ОДА);<br>работа с нарушением осанки (сколиоз, гиперкифоз, лордоз, протрузиями, грыжами);<br>мобилизация грудного отдела, тазобедренных суставов, работа со стопами, дыханием, тазовым дном;<br>рекомендации по питанию, расчёт БЖУ;<br>миофасциальный релиз.</div>            <button class="button_start">Начать бесплатно</button></div>

@@ -10,20 +10,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style_about_project.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script> 
 </head>
+
 <body>
-    <header>
-        <div class="container">
+    <header class = "header">
+        <div class="container header__container">
             <div class="header_wrapper">
                 <a href="index.html"><img src="icons/seventh_page/seventh_logo.svg" alt="header_icon_logo"></a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="cource.html">Курс</a></li>
-                        <li><a href="about_project.html">О проекте</a></li>
-                        <li><a href="payment.html">Оплата</a></li>
-                        <li><a href="blog.html">Блог</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="menu header__menu">
+                        <li class="menu__item"><a href="index.html">Главная</a></li>
+                        <li class="menu__item"><a href="cource.html">Курс</a></li>
+                        <li class="menu__item"><a href="about_project.html">О проекте</a></li>
+                        <li class="menu__item"><a href="payment.html">Оплата</a></li>
+                        <li class="menu__item"><a href="blog.html">Блог</a></li>
+                        <li class="menu__item"><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </nav>
                 <button class="button_start">Начать бесплатно</button>
@@ -38,9 +44,10 @@
     </section>
 
     <section class="second_wiki">
-        <div class="container">
+
         <div class="wrh">            <h2 class="h2">Уникальность</h2>
         <div class="devaider"></div></div>
+        <div class="container">
             <div class="second_wrapper">
                 <div class="second_description"><span>Тренируйся в удобное время и не подстраивайся под тренера</span><br>
                     Участники проекта получают отличную возможность самостоятельно планировать время тренировок, если это не будет вредить выполнению поставленных в программе задач.</div>
@@ -65,9 +72,10 @@
     </section>
 
     <section class="third_history">
-        <div class="container">
+
             <div class="wrh">            <h2 class="h2">История проекта</h2>
                 <div class="devaider"></div></div>
+                <div class="container">
             <div class="third_wrapper">
                 <div class="third_information">
                     <div class="third_year">2018</div>
