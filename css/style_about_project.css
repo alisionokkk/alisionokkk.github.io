@@ -23,6 +23,9 @@ header .container{
 .header a{
     color:#484848
 }
+.second_description{
+    padding-bottom: 100px;
+}
 .content-wrapper{
 	width: 100%;
 }
@@ -431,4 +434,7 @@ h2{font-size: 30px;}
     padding-top: 40px;
 }
 .wrh{width: 100%;}
+}
+.second_description2{
+    padding-bottom: 100px;
 }
