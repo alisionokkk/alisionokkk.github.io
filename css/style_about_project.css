@@ -1,24 +1,21 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav.header__nav{margin:0 auto}header ul li.menu__item{display:inline-block;padding:24px 25px 0;color:#484848}header header ul{height:70px;margin:0;padding:24px 25px 0;color:#484848}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav.header__nav{margin:0 auto}header ul li.menu__item{display:inline-block;padding:10px 25px 0;color:#484848}header header ul{height:70px;margin:0;padding:10px 25px 0;color:#484848}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
 a:hover {
     color: #2d4a1a;
 }
 section{padding-top: 90px;}
 header {
-	top: 0;
-	left: 0;
 	z-index: 20;
 	background: #fff;
     display: flex;
-    padding: 5px 0;
     align-items: center;
     justify-content: space-between;
-
 }
-header .container{
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    position: relative;
+.header__menu {
+    display: flex;
+	position: relative;
+    align-items: center;
+    padding: 0;
+	z-index: 2;
 }
 .header a{
     color:#484848
@@ -26,17 +23,7 @@ header .container{
 .second_description{
     padding-bottom: 100px;
 }
-.content-wrapper{
-	width: 100%;
-}
-.header__menu {
-    display: flex;
-	position: relative;
-	z-index: 2;
-}
-.header__menu li {
-	text-transform: uppercase;
-}
+
 header{position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block}header nav{margin-right:20%}header ul{height:70px;margin:0;line-height: 17px;}
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
@@ -68,11 +55,9 @@ header{position:fixed;width:100%}header .header_wrapper{display:flex;justify-con
 .header__menu li.menu__item {
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-	margin: 0 0px 20px;
+	margin: 10px auto;
     padding: 0;
     font-size: 14px;
-    margin-top: 20px;
 
 	}
 .menu-burger__header {
@@ -140,10 +125,7 @@ header {
     color:#FFFFFF
 }
 .header_path{
-    padding-top: 90px;
-}
-.wrh h2{
-    margin-bottom: 40px;
+    padding-top: 110px;
 }
 .second_wrapper{
     margin: 0 auto;
@@ -418,11 +400,12 @@ footer a{
     font-weight: 700;
 }
 @media(max-width: 767px){
-.element,header nav, header .button_start{
+.element,header nav, header .button_start, .header_path{
     display: none;
 }
-
-h2{font-size: 30px;}
+.first{background:url("../img/article/Rectangle\ 67.jpg");height: 465px;background-size:cover}
+h2{font-size: 30px;margin-bottom: 20px;}
+h2.h2{margin-bottom: 20px;}
 .third_year{
     font-size: 16px;
     margin-right: 5px;
@@ -433,8 +416,36 @@ h2{font-size: 30px;}
 .third_information{
     padding-top: 40px;
 }
-.wrh{width: 100%;}
-}
+.wrh{width: 80%;}
+
 .second_description2{
     padding-bottom: 100px;
+}
+.devaider{margin-bottom: 50px;}
+.third_history{padding-top: 40px;}
+.fourth_command{padding-top: 60px;}
+.fourth_command .h2{
+    margin-bottom: 20px;
+}
+.fourth_command .devaider{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.fifth_cooperation, .second_description2{
+    padding-top: 50px;
+}
+.second_description2{padding-bottom: 0;}
+.fifth_cooperation h2.h2{margin-bottom: 20px;}
+.fifth_cooperation .devaider{
+    margin-bottom: 50px;
+}
+.second_description_h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.second_description_h3{
+    font-size: 20px;
+    font-weight: 600;
+}
 }

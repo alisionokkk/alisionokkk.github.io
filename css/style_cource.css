@@ -1,36 +1,25 @@
-*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}section{padding-bottom:100px;}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav.header__nav{margin:0 auto}header ul li.menu__item{display:inline-block;padding:24px 25px 0}header header ul{height:70px;margin:0;padding:24px 25px 0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
+*{color:#484848;;font-family:"Inter"}h2{font-weight:600;font-size:50px;text-align:center;margin:0;margin-bottom: 40px;}section{padding-bottom:100px;}a{color:#484848;font-weight:400;font-size:14px;text-decoration:none}header{background:#FFFFFF;position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header nav.header__nav{margin:0 auto}header ul li.menu__item{display:inline-block;padding:10px 25px 0}header header ul{height:70px;margin:0;padding:24px 25px 0}.button_start{display:inline-block;width:150px;height:35px;background:#00B40A;font-weight:400;font-size:14px;border:0;text-align:center;color:#f5f5f5; }
 a:hover {
     color: #2d4a1a;
 }
 header {
-	top: 0;
-	left: 0;
 	z-index: 20;
 	background: #fff;
     display: flex;
-    padding: 5px 0;
     align-items: center;
     justify-content: space-between;
-
-}
-header .container{
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    position: relative;
-}
-.content-wrapper{
-	width: 100%;
 }
 .header__menu {
     display: flex;
 	position: relative;
+    align-items: center;
+    padding: 0;
 	z-index: 2;
 }
-.header__menu li {
-	text-transform: uppercase;
+.button_start.s{
+    display: none;
 }
-.first .header_path{padding-top: 90px;}
+.first_introduction .header_path{padding-top: 110px;}
 header{position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block}header nav{margin-right:20%}header ul{height:70px;margin:0;line-height: 17px;}
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
@@ -62,12 +51,9 @@ header{position:fixed;width:100%}header .header_wrapper{display:flex;justify-con
 .header__menu li.menu__item {
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-	margin: 0 0px 20px;
+	margin: 10px auto;
     padding: 0;
     font-size: 14px;
-    margin-top: 20px;
-
 	}
 .menu-burger__header {
 	position: relative;
@@ -129,10 +115,11 @@ section.first_introduction{
 header .button_start{
     margin: 0;
 }
-.first_introduction .container{
+.first_introduction{
     background:url("../img/second_page/1_bg.jpg");
     background-repeat: no-repeat;
     padding-bottom: 144px;
+    height: 571px;
 }
 
 .first_h2{
@@ -597,8 +584,69 @@ footer span a{
     width: 100%;
 }
 h2.first_h2{
-    font-size: 40px;
+    font-size: 32px;
+    font-weight: 600;
 }
-h2{font-size: 40px;}
-.first_introduction{padding-bottom: 0;}
+h2{font-size: 30px;margin-bottom: 20px;}
+.first_description{font-size: 16px;font-weight: 700;}
+.first_introduction{padding-bottom: 0;background:url("../img/article/Rectangle\ 19.jpg");height: 515px;background-size:cover}
+.second_point_item{max-width: 150px;}
+.second_item_description{font-size: 12px;}
+.second_devaider{width: 80%;}
+.wrh{width: 80%;}
+.second_who{padding-bottom: 40px;}
+.devaider{margin-bottom: 50px;}
+.third_result .third_h3{
+    font-size: 20px;
+}
+.third_img{
+    margin-top: 40px;
+}
+.third_button_start_free{
+    margin-top: 40px;
+}
+.third_result{
+    padding-bottom: 80px;
+}
+.button_start.f{
+    display: none;
+}
+.button_start.s{
+    display: block;
+    margin: 0 auto;
+    margin-top: 600px;
+}
+.fourth_about_trainer{margin-bottom: 0;}
+.fifth_fact{
+    width: 160px;
+}
+.fifth_facts .fact_description{
+    width: 160px;
+    font-size: 12px;
+    text-align: center;
+}
+.fifth_h2_fact{font-size: 40px;}
+.fifth_facts{padding-bottom: 40px;}
+.sixth_divaider_grey, .sixth_divaider_green{
+max-width: 80%;
+}
+.sixth_divaider_green{margin-left: 20%;margin-bottom: 40px;}
+.seventh_review{padding-bottom: 40px;}
+.eighth_process li{
+    width: 290px;
+}
+.ninth_about_cource .button_start{
+    display: block;
+    margin: 20px auto;
+    margin-right: 30%;
+}
+.second_description_h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.second_description_h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.second_description{padding-bottom: 0;}
 }
