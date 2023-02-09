@@ -154,7 +154,7 @@ header {
 }
 
 .third_wrapper{
-    min-height: 703px;
+    min-height: 450px;
     background: url("../img/third_page/3_bg.jpg");
 }
 
@@ -246,7 +246,7 @@ header {
 }
 
 .fourth_information{
-    min-height: 132px;
+    min-height: 115px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -255,7 +255,7 @@ header {
 }
 
 .fourth_link{
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 40px;
     font-weight: 600;
     font-size: 14px;
@@ -448,4 +448,13 @@ h2.h2{margin-bottom: 20px;}
     font-size: 20px;
     font-weight: 600;
 }
+.third_wrapper{
+    min-height: 300px;
+}
+.fourth_link{margin-top: 0;}.footer_part, footer nav{
+    display: none;
+}
+.footer_icon{padding: 0;padding-right: 0;
+margin: 0 auto;
+width: 176px;}
 }

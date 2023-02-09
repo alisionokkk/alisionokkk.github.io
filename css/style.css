@@ -17,12 +17,17 @@ header {
     padding: 0;
 	z-index: 2;
 }
+p.seventh_text_about_blog{line-height: 24px;}
+section.sixth_cources .se img.si{
+    display: none;}
 header{position:fixed;width:100%}header .header_wrapper{display:flex;justify-content:space-between;align-items:center;height:70px}header ul li{display:inline-block}header nav{margin-right:20%}header ul{height:70px;margin:0;line-height: 17px;}
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} 
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;
+} 
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
 @media screen and (max-width: 992px) { div.contentblock {width: 970px;} 
 }}
 @media(max-width: 767px){
+
 .header_wrapper{
     height: 80px;
 }
@@ -202,6 +207,7 @@ header {
 }
 .wrh{
     width: 50%;
+    padding: 0;margin: 0;
 }
 .divaider{
     display:block;
@@ -538,8 +544,9 @@ h2.h2_left{
 }
 .third_for_whom .third_for_whom_text{
 font-size: 12px;
+min-height: 140px;
 }
-.third_for_whom{
+.third_description{
     padding: 10px;
 }
 .first_introduction .first_introduction_link_3{
@@ -555,9 +562,8 @@ font-size: 12px;
 .fourth_what_is_menu{
     margin-top: 40px;
 }
-.fifth_trainer_information{
-    text-align: center;
-    margin: 0 auto;
+.si{
+    display: inline-block;
 }
 .sixth_cources .center_divaider{
     margin-bottom: 40px;
@@ -568,11 +574,14 @@ font-size: 12px;
     overflow: hidden;
     background: url("../img/article/Group\ 263.jpg");
 }
-
+.fourth_what_is_menu li{
+    font-size: 16px;
+    width: 319px;
+}
 .first_introduction .first_introduction_button_2{
     height: auto;
     width: 100%;
-    margin-bottom: 0;
+    margin:5px 0 ;
     overflow: hidden;
     background: url("../img/first_page/1_bg_2.jpg");
 }
@@ -592,4 +601,14 @@ font-size: 12px;
     font-weight: 600;
 }
 .second_description{padding-bottom: 0;}
+section.sixth_cources .se img.si{
+    display: inline-block;
+max-width: 100%;
+margin-bottom: 20px;}
+.footer_part, footer nav{
+    display: none;
+}
+.footer_icon{padding: 0;padding-right: 0;
+margin: 0 auto;
+width: 176px;}
 }

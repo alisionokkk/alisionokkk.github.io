@@ -633,14 +633,18 @@ max-width: 80%;
 .sixth_divaider_green{margin-left: 20%;margin-bottom: 40px;}
 .seventh_review{padding-bottom: 40px;}
 .eighth_process li{
+    margin: 0;
+    margin-right: 0;
     width: 290px;
 }
+.eighth_process ol{padding: 0;padding-left: 50px;}
 .ninth_about_cource .button_start{
     display: block;
     margin: 20px auto;
     margin-right: 30%;
 }
 .second_description_h2{
+    margin-top: 50px;
     font-size: 30px;
     font-weight: 400;
 }
@@ -648,5 +652,13 @@ max-width: 80%;
     font-size: 20px;
     font-weight: 600;
 }
-.second_description{padding-bottom: 0;}
+.second_description{padding-bottom: 0;}.footer_part, footer nav{
+    display: none;
+}
+.footer_icon{padding: 0;padding-right: 0;
+margin: 0 auto;
+width: 176px;}
+}
+.ninth_about_cources a.bl{
+    display: block;
 }
