@@ -43,7 +43,7 @@ section.sixth_cources .se img.si{
 
 .first_introduction .first_introduction_button_1{
 
-    max-width: 700px;height: 482px;
+   width: 700px;height: 482px;
     margin-right: 4px;
     background: url("../img/first_page/1_bg_1.jpg");
     float: left;
@@ -178,6 +178,8 @@ color: #484848;
 }
 .fifth_command img{
     width: 100%;
+    max-width: 293px;
+    height: 447px;
 }
 .fifth_trainer_information{margin: 0 auto;
     margin-bottom: 40px;
