@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-family: "Gilroy-Light";
+    max-width: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  
+  @media screen and (max-width: 1459px) {
+    .container {
+      padding: 0 30px;
+    }
+  }
+  @media screen and (max-width: 829px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+  h1 {
+    font-family: "NeutralFace";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: calc(22px + 1.8439716312vw);
+  }
+  
+  h2 {
+    font-family: "NeutralFace";
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    font-size: calc(24px + 1.134751773vw);
+    text-align: left;
+    margin: 70px 0 30px 0;
+  }
+  
+  h3 {
+    font-family: "NeutralFace";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(17px + 0.4964539007vw);
+  }
+  
+  p {
+    font-family: "Gilroy-Light";
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    font-size: calc(15px + 0.2127659574vw);
+  }
+  
+  ul, ol {
+    line-height: 200%;
+  }
+  
+  li {
+    font-family: "Gilroy-Light";
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    font-size: calc(15px + 0.2127659574vw);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 439px) {
+  .privacy_policy_container h2 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .privacy_policy_container h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .privacy_policy_container p {
+    -moz-text-align-last: left;
+         text-align-last: left;
+  }
+  
+  .confidence_container h2 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .confidence_container h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .confidence_container p {
+    -moz-text-align-last: left;
+         text-align-last: left;
+  }
+  .confidence_container table {
+    border-collapse: collapse;
+  }
+  .confidence_container table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+  .confidence_container table td ul {
+    text-align: left;
+    margin-left: 15px;
+  }
+  }
