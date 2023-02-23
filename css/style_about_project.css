@@ -320,5 +320,6 @@ h2.h2{margin-bottom: 20px;}
 }
 .third_wrapper{
     min-height: 300px;
-}
+}    footer .container{padding-left:0;padding-right:0}
+
 }
