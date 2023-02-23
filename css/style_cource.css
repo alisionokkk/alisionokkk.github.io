@@ -380,7 +380,7 @@ margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .n_v{
     max-width: 634px;
