@@ -81,5 +81,6 @@ section .some_text{
 .el{width: 80%;}
 .img_2{
     margin-top: 20px;
-}
+}    footer .container{padding-left:0;padding-right:0}
+
 }
